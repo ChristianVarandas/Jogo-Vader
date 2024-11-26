@@ -42,3 +42,10 @@ Ao deixar o mouse em cima de um dos botões, este muda de cor, ficando vermelho.
 # Diagrama de classes
 
 # Script
+
+#Referências (Assets):
+- Darth Vader: https://skfb.ly/onpSP
+- Sabre de Luz: https://skfb.ly/ot8Ey
+- Star Destroyer: https://skfb.ly/o9vyx
+- Skybox: https://assetstore.unity.com/packages/2d/textures-materials/deep-space-skybox-pack-11056
+- Assets do cenário: https://assetstore.unity.com/packages/3d/environments/sci-fi/modular-sci-fi-corridor-142811
