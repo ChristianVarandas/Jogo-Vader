@@ -34,7 +34,7 @@
 ![Imagem do WhatsApp de 2024-11-26 à(s) 15 51 14_d092e06a](https://github.com/user-attachments/assets/9d80632c-e1a3-467c-bd67-415c6822a3b7)
 
 # UI
->`menu`: O menu do jogo possui dois botões abaixo do título do jogo, sendo eles o de "Jogar" e "Sair". Como os nomes já dizem, o primeiro te leva à cena do jogo, e o segundo fecha o mesmo. O cenário por trás do menu foi feito com uma Skybox com uma imagem do espaço, e o modelo de um "Destroyer", uma nave do império no filme.
+`menu`: O menu do jogo possui dois botões abaixo do título do jogo, sendo eles o de "Jogar" e "Sair". Como os nomes já dizem, o primeiro te leva à cena do jogo, e o segundo fecha o mesmo. O cenário por trás do menu foi feito com uma Skybox com uma imagem do espaço, e o modelo de um "Destroyer", uma nave do império no filme.
 ![Imagem do WhatsApp de 2024-11-26 à(s) 17 35 08_58cbb149](https://github.com/user-attachments/assets/3c72a58f-faa6-42eb-864c-abe1c49f4d19)
 Ao deixar o mouse em cima de um dos botões, este muda de cor, ficando vermelho. Se retirar o mouse, ele volta ao normal.
 ![Imagem do WhatsApp de 2024-11-26 à(s) 17 35 40_16086434](https://github.com/user-attachments/assets/2c3dfeb2-b48e-4c90-bff9-6fe7e2764d19)
