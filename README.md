@@ -43,7 +43,7 @@ Ao deixar o mouse em cima de um dos botões, este muda de cor, ficando vermelho.
 
 # Script
 
-#Referências (Assets):
+# Referências (Assets):
 - Darth Vader: https://skfb.ly/onpSP
 - Sabre de Luz: https://skfb.ly/ot8Ey
 - Star Destroyer: https://skfb.ly/o9vyx
