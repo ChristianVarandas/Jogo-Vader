@@ -45,7 +45,37 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 
 # Diagrama de classes
 
-# Script
+# Scripts
+ <h1>Jogador.cs:</h1>
+ Atributos:
+ <ul>
+  <li>controleJogador: Referência ao componente "CharacterController do objeto do jogador. Usado para o movimento e colisões.</li>
+  <li>cam: Referência ao componente "Transform" da câmera. Usado para fazer o jogador se mover de acordo com a direção da câmera.</li>
+  <li>velocidade: Valor float, que define quão rápido o jogador se moverá.</li>
+  <li>vida: Valor int, armazena um valor que define quanto dano de ataques o jogador pode levar antes de perder o jogo.</li>
+  <li>mover: Um Vector3 que armazena valores nos eixos X e Z para movimentar o CharacterController do jogador e a direção da câmera, para que o jogador se mova com ela.</li>
+  <li>horizontal e vertical: floats que recebem valores de acordo com as teclas de movimento pressionadas.</li>
+ </ul>
+  Métodos:
+  <ul>
+   <li>Start: Executado apenas uma vez, logo após o carregamento e antes do primeiro frame.
+       Cursor.lockState: define se o cursor vai ficar livre, preso à janela atual, ou travado no centro da tela, seu valor é = CursorLockMode.Locked, pois o jogador não precisará clicar em nenhum elemento.
+       controleJogador = GetComponent<CharacterController>(); Atrela controleJogador ao componente CharacterController do objeto que recebe o script, no caso, o modelo do jogador.
+       cam = Camera.main.transform; 
+   </li>
+  </ul>
+
+  <h1>Menu.cs</h1>
+  Arquivo com as funções dos botões da tela inicial do jogo.
+  <ul>
+<li>O método SairJogo é acessado quando o botão de sair é clicado, e usa “Application.Quit” para fechar o jogo.</li>
+<li>Os métodos IniciarJogo, Reiniciar e Voltar, são executados quando os botões com o mesmo texto são clicados, todos usam o método “LoadScene” troca a cena atual para as cenas do jogo no menu principal, do jogo no menu de derrota e do menu principal, respectivamente.</li>
+</ul>
+
+ <h1>Fase.cs</h1>
+ Script que controla as portas da nave, que separam o jogo em três fases.
+ Cada porta contém uma instância desse script, com os métodos Start e Update do Unity e “AbrirPorta” e os atributos “inimigosDerrotados, uma variável inteira e estática (para que seja igual em todas as instâncias), cujo valor sobe em 1 toda vez que um inimigo é morto pelo jogador.
+“totalInimigos”, possui um valor único para cada instância, que determina quantos inimigos devem ser derrotados para que o jogador possa progredir. Quando o número de inimigos derrotados alcança o total, o método “AbrirPorta é chamado” esse método, também único para cada instância da classe, chama uma animação que move a porta, permitindo que o jogador passe por ela.
 
 # Referências (Assets):
 - Darth Vader: https://skfb.ly/onpSP
