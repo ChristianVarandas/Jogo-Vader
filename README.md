@@ -74,8 +74,12 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 
  <h2>Fase.cs</h2>
  Script que controla as portas da nave, que separam o jogo em três fases.
- Cada porta contém uma instância desse script, com os métodos Start e Update do Unity e “AbrirPorta” e os atributos “inimigosDerrotados, uma variável inteira e estática (para que seja igual em todas as instâncias), cujo valor sobe em 1 toda vez que um inimigo é morto pelo jogador.
-“totalInimigos”, possui um valor único para cada instância, que determina quantos inimigos devem ser derrotados para que o jogador possa progredir. Quando o número de inimigos derrotados alcança o total, o método “AbrirPorta é chamado” esse método, também único para cada instância da classe, chama uma animação que move a porta, permitindo que o jogador passe por ela.
+ Cada porta contém uma instância desse script, com os métodos Start e Update do Unity e “AbrirPorta”.
+ Também possuem os atributos “inimigosDerrotados", uma variável int e static (para que seja igual em todas as instâncias), cujo valor sobe em 1 toda vez que um inimigo é morto pelo jogador.
+“totalInimigos”, possui um valor único para cada instância, que determina quantos inimigos devem ser derrotados para que o jogador possa progredir.
+ Quando o número de inimigos derrotados alcança o total, o método “AbrirPorta é chamado” esse método, também único para cada instância da classe, chama uma animação que move a porta, permitindo que o jogador passe por ela.
+
+<h2>
 
 # Referências (Assets):
 - Darth Vader: https://skfb.ly/onpSP
