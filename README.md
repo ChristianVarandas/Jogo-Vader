@@ -4,6 +4,7 @@
 >- Dupla: Christian Varandas e Gabriel Gaudí
 >- Turma: 2º Mtec Desenvolvimento de Jogos Digitais
 >- Sobre: Jogo baseado na cena da primeira aparição de Darth Vader, em Star Wars Episódio IV: Uma nova esperança. Trabalho a pedido das professoras Aline e Nivia.
+>- Link do projeto: https://drive.google.com/drive/folders/18Tf7eQZ129ojvdyYrEN8SqbjavzvCGye?usp=drive_link 
 
 # Gameplay
 - No jogo, você assume o papel de Darth Vader, e seu objetivo é atravessar o mapa, até chegar na sala onde se encontra a princesa Leia. O jogador deve derrotar todos os inimigos em cada área, para então abrir a porta e passar para a próxima. Serão três áreas, cada uma com um número diferente de inimigos. Para eliminar um inimigo, é necessário apenas estar próximo e atacá-lo, mas eles não são indefesos. Os inimigos irão atirar lasers contra o jogador, possuindo a vantagem da distância, mas com um intervalo de tempo de um tiro para outro. O jogo acaba se o jogador morrer, ou quando ele chega ao seu objetivo.
