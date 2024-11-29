@@ -25,7 +25,7 @@
 | Botões | FFFFFF e F11313 |
 
 # Cenário
-- O cenário do jogo é a nave da qual Darth Vader invadiu. Ele se baseia em dois corredores e uma grande sala, onde em cada um desses há uma certa quantidade de inimigos. Os corredores e a sala são separados por portas.
+- O cenário do jogo é a nave da qual Darth Vader invadiu. Ele se baseia em dois corredores e uma grande sala, onde em cada um desses há uma certa quantidade de inimigos. Os corredores e a sala são separados por portas. Foram usados assets da assets store para o mapa em um geral (paredes, chão, teto, portas e obstáculos), e alguns cubos do unity para as paredes em volta das portas.
 ## Porta 1:
 ![Imagem do WhatsApp de 2024-11-26 à(s) 15 47 40_2ead0c11](https://github.com/user-attachments/assets/1b79964b-34dd-4079-aa5b-2013a9775551)
 ![Imagem do WhatsApp de 2024-11-26 à(s) 15 49 01_b3a8a28c](https://github.com/user-attachments/assets/47761921-777e-44f7-9151-2b18e414dda4)
