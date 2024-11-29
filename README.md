@@ -70,7 +70,7 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
   Arquivo com as funções dos botões da tela inicial do jogo.
   <ul>
 <li>O método SairJogo é acessado quando o botão de sair é clicado, e usa “Application.Quit” para fechar o jogo.</li>
-<li>Os métodos IniciarJogo, Reiniciar e Voltar, são executados quando os botões com o mesmo texto são clicados, todos usam o método “LoadScene” troca a cena atual para as cenas do jogo no menu principal, do jogo no menu de derrota e do menu principal, respectivamente.</li>
+<li>Os métodos IniciarJogo, Reiniciar e Voltar, são executados quando os botões com o mesmo texto são clicados, todos usam o método “LoadScene”, trocando a cena atual para as cenas do jogo no menu principal, do jogo no menu de derrota e do menu principal, respectivamente.</li>
 </ul>
 
  <h2>Fase.cs</h2>
@@ -80,7 +80,25 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 “totalInimigos”, possui um valor único para cada instância, que determina quantos inimigos devem ser derrotados para que o jogador possa progredir.
  Quando o número de inimigos derrotados alcança o total, o método “AbrirPorta é chamado” esse método, também único para cada instância da classe, chama uma animação que move a porta, permitindo que o jogador passe por ela.
 
-<h2>
+<h2>Inimigo.cs</h2>
+Atributos:
+<ul>
+ <li>alcance: valor float, define a distância máxima na qual o inimigo ataca o jogador.</li>
+ <li>velocidadeOlhar: float, é o quão rápido o inimigo será rotacionado na direção do jogador</li>
+ Ambos possuem SerializeField, que faz com que métodos não públicos possam ser vistos no editor do Unity e dentro da cena, para facilitar o desenvolvimento.
+ <li>JogadorScript: refêrencia ao script "Jogador" para que seus atributos possam ser alterados.</li>
+ <li>dano: inteiro, é o número que será subtraído da vida do jogador se ele for acertado pelo inimigo.</li>
+ <li>jogadorTransform: armazena dados do componente Transforme do jogador. Usado para calcular a distância entre o inimigo e ele.</li>
+ <li>espera: float privada, já que será usada apenas dentro desse script; usada como contador para o intervalo entre ataques do inimigo.</li>
+ <li>esperaTempo: float privada, já que será usada apenas dentro desse script; é o total de tempo entre cada ataque.</li>
+</ul>
+Métodos:
+<ul>
+ <li>GameObject.Find(): procura um GameObject com o nome dado. O ".transform" é usado pois queremos apenas a posição do jogador, que é guardade em seu Transform.</li>
+ <li>SceneManager.LoadScene(): troca a cena para a tela de fim de jogo quando o atributo vida do script jogador se torna menor ou igual a 0</li>
+ <li>Vector3.Distance(): calcula a distância entre dois Vector3</li>
+ <li></li>
+</ul>
 
 # Referências (Assets):
 - Darth Vader: https://skfb.ly/onpSP
