@@ -68,7 +68,8 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 
   <h2>Menu.cs</h2>
 
-'''public class Menu : MonoBehaviour
+'''
+public class Menu : MonoBehaviour
 {
 
     public void IniciarJogo()
@@ -90,7 +91,8 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
     {
         SceneManager.LoadScene("Menu");
     }
-}'''
+}
+'''
   Arquivo com as funções dos botões da tela inicial do jogo.
   <ul>
 <li>O método SairJogo é acessado quando o botão de sair é clicado, e usa “Application.Quit” para fechar o jogo.</li>
