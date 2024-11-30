@@ -24,6 +24,7 @@
 | Paredes | ADA6A5 |
 | Texto no menu | FFFFFF |
 | Botões | FFFFFF e F11313 |
+| Inimigo | 3F7345, ABA8A8 e FFFFFF |
 
 # Cenário
 - O cenário do jogo é a nave da qual Darth Vader invadiu. Ele se baseia em dois corredores e uma grande sala, onde em cada um desses há uma certa quantidade de inimigos. Os corredores e a sala são separados por portas. Foram usados assets da assets store para o mapa em um geral (paredes, chão, teto, portas e obstáculos), e alguns cubos do unity para as paredes em volta das portas.
