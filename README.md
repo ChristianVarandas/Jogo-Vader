@@ -29,12 +29,12 @@
 # Cenário
 - O cenário do jogo é a nave da qual Darth Vader invadiu. Ele se baseia em dois corredores e uma grande sala, onde em cada um desses há uma certa quantidade de inimigos. Os corredores e a sala são separados por portas. Foram usados assets da assets store para o mapa em um geral (paredes, chão, teto, portas e obstáculos), e alguns cubos do unity para as paredes em volta das portas.
 ## Porta 1:
-![Imagem do WhatsApp de 2024-11-26 à(s) 15 47 40_2ead0c11](https://github.com/user-attachments/assets/1b79964b-34dd-4079-aa5b-2013a9775551)
-![Imagem do WhatsApp de 2024-11-26 à(s) 15 49 01_b3a8a28c](https://github.com/user-attachments/assets/47761921-777e-44f7-9151-2b18e414dda4)
+![Imagem do WhatsApp de 2024-11-29 à(s) 23 44 54_0c3f05d1](https://github.com/user-attachments/assets/9bd8fccf-ebea-4ca9-bb6d-9e0fb3a1c27b)
+![Imagem do WhatsApp de 2024-11-29 à(s) 23 50 43_a09fabef](https://github.com/user-attachments/assets/601e7c69-63c5-4ee3-ba1a-5ce306c65ba2)
 ## Porta 2:
-![Imagem do WhatsApp de 2024-11-26 à(s) 15 49 51_8e5ec7cf](https://github.com/user-attachments/assets/3a8aebd3-94d3-4daf-9d8e-034696f818b5)
+![Imagem do WhatsApp de 2024-11-29 à(s) 23 54 19_a469236b](https://github.com/user-attachments/assets/72f1533e-8724-4c20-bcbb-91d802054413)
 ## Porta 3:
-![Imagem do WhatsApp de 2024-11-26 à(s) 15 51 14_d092e06a](https://github.com/user-attachments/assets/9d80632c-e1a3-467c-bd67-415c6822a3b7)
+![Imagem do WhatsApp de 2024-11-29 à(s) 23 55 57_5b2fcce7](https://github.com/user-attachments/assets/841ae5ee-fdde-446f-8e1d-00665ea295db)
 
 # UI
 `Menu`: O menu do jogo possui dois botões abaixo do título do jogo, sendo eles o de "Jogar" e "Sair". Como os nomes já dizem, o primeiro te leva à cena do jogo, e o segundo fecha o mesmo. O cenário por trás do menu foi feito com uma Skybox com uma imagem do espaço, e o modelo de um "Destroyer", uma nave do império no filme.
