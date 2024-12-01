@@ -56,8 +56,8 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 ![Imagem do WhatsApp de 2024-11-26 à(s) 19 08 30_b617bce1](https://github.com/user-attachments/assets/82e7654f-ea9d-4c8c-bf71-95c44e86184f)
 
 # Diagrama de classes
-
-
+- Diagrama antigo: <br>
+![WhatsApp Image 2024-12-01 at 16 25 02](https://github.com/user-attachments/assets/2a16aa42-b204-4df9-bdb0-1e036856d0d5)
 
 # Referências (Assets):
 - Darth Vader: https://skfb.ly/onpSP
