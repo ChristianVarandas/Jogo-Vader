@@ -11,6 +11,12 @@
 - No jogo, você assume o papel de Darth Vader, e seu objetivo é atravessar o mapa, até chegar na sala onde se encontra a princesa Leia. O jogador deve derrotar todos os inimigos em cada área, para então abrir a porta e passar para a próxima. Serão três áreas, cada uma com um número diferente de inimigos. Para eliminar um inimigo, é necessário apenas estar próximo e atacá-lo, mas eles não são indefesos. Os inimigos irão atirar lasers contra o jogador, possuindo a vantagem da distância, mas com um intervalo de tempo de um tiro para outro. O jogo acaba se o jogador morrer, ou quando ele chega ao seu objetivo.
 # História do jogo
 - Darth Vader invadiu a nave e precisa chegar até a princesa Leia. Seus inimigos não o deixarão passar facilmente, e por isso, ele esmagará todos aqueles em seu caminho. Ele então segue pela nave, fazendo questão de derrotar um por um, para impor medo em seus adversários. Após acabar com todos e finalmente chegar ao seu destino, ele encontra a princesa.
+- Esboço dos soldados inimigos <br>
+ ![EsboçoInimigo](https://github.com/user-attachments/assets/e92b1723-1145-4171-95ca-20c42554a054)
+- Esboços do jogador (Darth Vader) <br>
+ ![EsboçoJogador](https://github.com/user-attachments/assets/a5e12d89-8800-4c00-b22a-8501c7a73b62)
+![EsboçoJogador2](https://github.com/user-attachments/assets/28be7a92-ca32-42d0-a06d-f2e8ab9ccfed)
+
 
 # Cores
 - Por estarmos na visão do vilão da famosa franquia, optamos por uma paleta de cores mais escura, pois agora você está do lado sombrio da força. A predominância das cores cinza e preto criam um ar misterioso e sombrio, combinando com o sentimento causado pela presença de Darth Vader. O vermelho de seu sabre de luz se destaca, com a cor vermelha sendo uma das mais intensas na psicologia das cores, podendo trasmitir fortes emoções, e também simbolizar a guerra que ocorre ali.
@@ -28,6 +34,9 @@
 
 # Cenário
 - O cenário do jogo é a nave da qual Darth Vader invadiu. Ele se baseia em dois corredores e uma grande sala, onde em cada um desses há uma certa quantidade de inimigos. Os corredores e a sala são separados por portas. Foram usados assets da assets store para o mapa em um geral (paredes, chão, teto, portas e obstáculos), e alguns cubos do unity para as paredes em volta das portas.
+- Esboço conceitual do cenário:
+  ![EsboçoCenário](https://github.com/user-attachments/assets/3772f492-c11e-4645-a9fd-35c81e940a42)
+
 ## Porta 1:
 ![Imagem do WhatsApp de 2024-11-29 à(s) 23 44 54_0c3f05d1](https://github.com/user-attachments/assets/9bd8fccf-ebea-4ca9-bb6d-9e0fb3a1c27b)
 ![Imagem do WhatsApp de 2024-11-29 à(s) 23 50 43_a09fabef](https://github.com/user-attachments/assets/601e7c69-63c5-4ee3-ba1a-5ce306c65ba2)
