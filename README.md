@@ -10,7 +10,7 @@
 >[!NOTE]
  >`Problemas e alterações:`
 >- `Modelos de personagens`: Inicialmente, para os inimigos, iriamos adicionar os modelos dos personagens do filme e que aparecem na cena. Mas devido à dificuldade de encontrar algum que fosse compatível com as animações, ou que pudesse ser baixado no formato certo, decidimos pegar modelos diferentes mas que não saíssem da temática espacial.
->- `Animações`: Não encontramos modelos que funcionavam com animações já prontas, então para entregar o jogo no prazo, optamos por deixá-los sem elas (única excessão é a animação do sabre, feita pelo Gaudí).
+>- `Animações`: Não encontramos modelos que funcionavam com animações já prontas, então para entregar o jogo no prazo, optamos por deixá-los sem elas (única excessão é a animação do sabre e das portas, feitas pelo Gaudí).
 >- `Vídeo de gameplay`: Na gravação do vídeo, não sei ao certo o que aconteceu com o OBS, mas o vídeo saiu muito travado. Optamos então por gravar com a tela do celular, para pelo menos termos alguma coisa. O vídeo está no drive, junto do projeto.
 
 # Gameplay
