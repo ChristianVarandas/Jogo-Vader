@@ -56,9 +56,9 @@ Os botões funcionam da mesma forma que os do menu. Ao passar o mouse por cima, 
 ![Imagem do WhatsApp de 2024-11-26 à(s) 19 08 30_b617bce1](https://github.com/user-attachments/assets/82e7654f-ea9d-4c8c-bf71-95c44e86184f)
 
 # Diagrama de classes
-- Diagrama antigo: <br>
+### Diagrama antigo:
 ![WhatsApp Image 2024-12-01 at 16 25 02](https://github.com/user-attachments/assets/2a16aa42-b204-4df9-bdb0-1e036856d0d5)
-- Diagrama atual: <br>
+### Diagrama atual:
 ![Imagem do WhatsApp de 2024-12-01 à(s) 22 32 45_badd7360](https://github.com/user-attachments/assets/3620218f-0c3a-417b-bf05-7f9a74ebe086)
 
 
