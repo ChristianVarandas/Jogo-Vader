@@ -11,9 +11,12 @@
  >`Problemas e alterações:`
 >- `Modelos de personagens`: Inicialmente, para os inimigos, iriamos adicionar os modelos dos personagens do filme e que aparecem na cena. Mas devido à dificuldade de encontrar algum que fosse compatível com as animações, ou que pudesse ser baixado no formato certo, decidimos pegar modelos diferentes mas que não saíssem da temática espacial.
 >- `Animações`: Não encontramos modelos que funcionavam com animações já prontas, então para entregar o jogo no prazo, optamos por deixá-los sem elas (única excessão é a animação do sabre, feita pelo Gaudí).
+>- `Vídeo de gameplay`: Na gravação do vídeo, não sei ao certo o que aconteceu com o OBS, mas o vídeo saiu muito travado. Optamos então por gravar com a tela do celular, para pelo menos termos alguma coisa. O vídeo está no drive, junto do projeto.
 
 # Gameplay
 - No jogo, você assume o papel de Darth Vader, e seu objetivo é atravessar o mapa, até chegar na sala onde se encontra a princesa Leia. O jogador deve derrotar todos os inimigos em cada área, para então abrir a porta e passar para a próxima. Serão três áreas, cada uma com um número diferente de inimigos. Para eliminar um inimigo, é necessário apenas estar próximo e atacá-lo, mas eles não são indefesos. Os inimigos irão atirar lasers contra o jogador, possuindo a vantagem da distância, mas com um intervalo de tempo de um tiro para outro. O jogo acaba se o jogador morrer, ou quando ele chega ao seu objetivo.
+
+
 # História do jogo
 - Darth Vader invadiu a nave e precisa chegar até a princesa Leia. Seus inimigos não o deixarão passar facilmente, e por isso, ele esmagará todos aqueles em seu caminho. Ele então segue pela nave, fazendo questão de derrotar um por um, para impor medo em seus adversários. Após acabar com todos e finalmente chegar ao seu destino, ele encontra a princesa.
 - Esboço dos soldados inimigos <br>
